@@ -1,9 +1,11 @@
 Normally all the QML files and other resources used by QtAgOpenGPS are compiled right into the executable by the qrc resource compiler. This is convenient, but it makes QML development excruciatingly slow.  Fortunately during the development process it is possible to set a qmake option to tell QtAgOpenGPS to load resources from the disk at run time, instead of compiling them in.  To do this append the following to your qmake command:
 `DEFINES+=LOCAL_QML`
-With this DEFINE set, when QtAgOpenGPS is run, it will look in the following places for the resources in their respective folders (`qml`, `images`, `sounds`, etc), relative to the current working directory:
+With this DEFINE set, when QtAgOpenGPS is run, it will look in the following places for the resources in their respective folders (`qml`, `images`, `sounds`, etc), relative to the current working directory or the executable's directory:
 * `../`
 * `../qtaog/`
 * `../QtAgOpenGPS/`
+
+It stops looking when it finds qml/AOGInterface.qml, so if you have multiple copies of the resources, it may not be finding the directory you are expecting. QtAgOpenGPS will display a warning message to the console indicating what directory it is using.
 
 In Qt Creator you can set up a custom build configuration to do this for you automatically.  This makes it easy to switch between developing without the resources compiled in, or creating a debug or release build with the resources all compiled it.
 
