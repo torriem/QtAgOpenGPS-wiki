@@ -1,15 +1,3 @@
-# Optional Visual Studio Compiler
-
-To build binaries on Windows for Windows we recommend the Microsoft MSVC C++ compiler because it is faster. If do not have Visual Studio installed, you can install "Build Tools for Visual Studio" which include the MSVC compiler suite and command-line build tools.  They can be found at https://visualstudio.microsoft.com/downloads/.  Scroll down towards the bottom of the page and open the "Tools for Visual Studio" section.  Click on the Download button for "Build Tools for Visual Studio."
-
-![Build Tools For Visual Studio Download Page](setup_qt_images/buildtoolsdownload.png)
-
-Select the "Desktop development with C++" option and click "Install."
-
-![Desktop development with C++ checked](setup_qt_images/toolsinstall2.png)
-
-Only 6.8 GB later, you have a working command-line C++ compiler.  Amazing world we live in.
-
 # Prequisites
 ## Java
 Install Java SE, latest version.  Go to https://www.oracle.com/ca-en/java/technologies/downloads/ and download the Windows installer for the Java JDK.  At the time of this writing, 23.0.1 is the latest.
@@ -22,6 +10,18 @@ If you intend to use the Android emulator for testing purposes, you will need to
 When the "Windows Features" dialog appears, scroll down and check the box next to "Hyper-V" and click "OK."  You will then be prompted to reboot Windows.
 
 ![Enable Hyper-V](setup_qt_images/hyperv2.png)
+
+## Visual Studio Command-line compiler (optional)
+
+To build binaries on Windows for Windows we recommend the Microsoft MSVC C++ compiler because it is faster. If do not have Visual Studio installed, you can install "Build Tools for Visual Studio" which include the MSVC compiler suite and command-line build tools.  They can be found at https://visualstudio.microsoft.com/downloads/.  Scroll down towards the bottom of the page and open the "Tools for Visual Studio" section.  Click on the Download button for "Build Tools for Visual Studio."
+
+![Build Tools For Visual Studio Download Page](setup_qt_images/buildtoolsdownload.png)
+
+Select the "Desktop development with C++" option and click "Install."
+
+![Desktop development with C++ checked](setup_qt_images/toolsinstall2.png)
+
+Only 6.8 GB later, you have a working command-line C++ compiler.  Amazing world we live in.
 
 ## Git (optional)
 You may wish to install "git" to allow Qt Creator to integrate with git source code repos such as those hosted on github or other places including your local repositories.  Advanced features like branching and merging are supported by the Qt Creator IDE.  Install from the official download at https://git-scm.com/downloads/win.  I recommend you select the installer option to "Add a Git Bash Profile to Windows Terminal."
