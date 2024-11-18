@@ -10,7 +10,7 @@ After the example project opens, you will see a screen where you can configure t
 
 ![Configure Calqlatr](android_test_images/calc2.png)
 
-The current build target is set by clicking on the icon above the run and debug icons on the left column.  You can select the Kit, Build, and target device, which will be the emulator set up previously, or a real phone or tablet that's currently attached to USB.
+The current build target is set by clicking on the icon above the run and debug icons on the left column.  You can select the Kit, Build, and target device, which will be the emulator set up previously, or a real phone or tablet that's currently attached to USB.  When using the emulator, the Kit should be "Android...Clang x86_64."  For a tablet or phone it should be the "Android...Clang arm64-v8a" or "Android...Clang armeabi-v7a" depending on whether it is 64 or 32-bit.
 
 ![Calqlatr Build Target](android_test_images/calc3.png)
 
