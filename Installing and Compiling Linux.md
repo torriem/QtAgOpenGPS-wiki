@@ -1,9 +1,6 @@
 # Installing Qt and Building QtAgOpenGPS
 This was done on Fedora 40, but it should work on any linux distro
 
-### Windows
-I don't use windows. If someone does, keep track of the instructions, and I'll add them here.<br>
-The overall instructions should be close to the same.
 ## Preparing Before the Plunge
 Some dependencies
 
