@@ -67,14 +67,8 @@ sudo apt install git
 ### Clone
 ```
 mkdir ~/projects && cd ~/projects
-git clone https://github.com/davidwedel/QtAgOpenGPS.git
+git clone https://github.com/torriem/QtAgOpenGPS.git
 cd QtAgOpenGPS
-git checkout dev
-```
-#### Note: 
-This uses David's personal fork right now. Torriem's repo has not yet been updated to use CMake, and these instructions are concerned with CMake only. This is also why it is necessary to switch to the dev branch. If you plan to use this in the field, then switch to the v5fixes branch by
-```
-git checkout v5fixes_donot_merge
 ```
 
 ## Open QtAgOpenGPS in QtCreator (Finally)
