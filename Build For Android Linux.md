@@ -1,5 +1,5 @@
 # Compiling for Android 
-Warning: If you cannot build QtAOG on your desktop, do not attempt this. It must build on your desktop to work here. See [Installing And Compiling](https://github.com/torriem/QtAgOpenGPS/wiki/Installing-and-Compiling) if you have not done so.
+Warning: If you cannot build QtAOG on your desktop, do not attempt this. It must build on your desktop to work here. 
 
 ## Configure Android Settings in QtCreator
 Click "Configure Android" in the bottom Right. If you don't see, select Edit > Preferences > Devices > Android<br>
