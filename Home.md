@@ -18,7 +18,7 @@ Explains how the wiki works, and how to contribute.
 [Installing and Compiling Linux](https://github.com/torriem/qtagopengps/wiki/installing-and-compiling-linux)<br>
 How to install and set up Qt, download QtAOG source, and compile the code on Linux
 
-[Installing and Compiling Windows](https://github.com/torriem/qtagopengps/wiki/installing-and-compiling-windows)<br>
+[Installing and Compiling Windows](https://github.com/torriem/qtagopengps/wiki/installing+compiling-windows)<br>
 How to install and set up Qt, download QtAOG source, and compile the code on Windows
 
 [Qt For Android on Windows](https://github.com/torriem/qtagopengps/wiki/Qt-for-android-on-windows)<br>
