@@ -1,0 +1,1 @@
+We decided to go a different route with the Github wiki than normal. The trouble with Github's wiki feature is that it is impossible for any user to edit and submit a PR. So we have a [repository](https://github.com/torriem/qtagopengps-wiki) that any user can fork, edit, and submit a PR to.
