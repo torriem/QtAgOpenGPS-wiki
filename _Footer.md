@@ -1,3 +1,3 @@
 ### Want to contribute to this Wiki?
 
-[Fork it and send a pull request.](https://github.com/Torriem/QtAgOpenGPS-wiki)
+See page [Contributing to wiki](https://github.com/torriem/wiki/Contributing-to-Wiki)
