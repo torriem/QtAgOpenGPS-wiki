@@ -26,3 +26,5 @@ Building QtAOG for Android on Android. (Use this after you have built QtAOG on y
 
 [Setting Up Local QML](https://github.com/torriem/qtagopengps/wiki/setting-up-local-qml)<br>
 This is a must-have for QML development. It loads the QML files on QtAOG startup instead of compiling them in to the binary. Turns waiting for the compiler to slowly compile them into a basic reloading of QtAOG.
+[QtAOG Setting Properties](https://github.com/torriem/qtagopengps/wiki/QtAOG-Setting-Properties)<br>
+Details on parsing AOG settings, to update the QtAOG settings, and on adding our own properties.
