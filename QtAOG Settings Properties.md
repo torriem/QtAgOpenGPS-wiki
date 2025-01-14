@@ -18,7 +18,7 @@ Add property to parse_properties.py:
 
 From QtAOG root, run:
 ``` 
-./parse_properties.py /path/to/agopengps
+./parse_properties.sh /path/to/agopengps
 ```
 Ignore warnings like <br>
 
@@ -28,13 +28,13 @@ Ignore warnings like <br>
 
 From QtAOG root, run: 
 ```
-./parse_properties.py /path/to/agopengps
+./parse_properties.sh /path/to/C#/agopengps
 ```
 If you get a  warning like: <br>
 "Warning! No ini path found for setVehicle_goalPointAcquireFactor. Generate props.py and fix."
 Run 
 ```
-python3 parse_properties.py /path/to/AgOpenGPS/SourceCode/GPS/Properties/Settings.settings /path/to/AgOpenGPS/SourceCode/GPS/Classes/CSettings.cs -d > newprops.py
+python3 parse_properties.py /path/to/C#/AgOpenGPS/SourceCode/GPS/Properties/Settings.settings /path/to/C#/AgOpenGPS/SourceCode/GPS/Classes/CSettings.cs -d > newprops.py
 ```
 Open newprops.py. <br>
 Go to the line that has no value after the ":" (It'll be towards the end, and will look like this: 
@@ -44,6 +44,6 @@ So it looks like ```'setVehicle_goalPointAcquireFactor': 'vehicle/goalPointAcqui
 Delete props.py <br>
 Rename newprops.py to props.py <br> <br>
 From QtAOG root, run <br>
-```./parse_properties.py /path/to/agopengps``` <br><br>
+```./parse_properties.sh /path/to/C#/agopengps``` <br><br>
 Don't forget to commit the result!
 
