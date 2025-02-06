@@ -1,18 +1,11 @@
 # Installing Qt and Building QtAgOpenGPS
-This was done on Fedora 40, but it should work on any linux distro
 
 ## Preparing Before the Plunge
 Some dependencies
 
-If the commands listed below don't work, have a look at <br>
-https://doc.qt.io/qt-6/linux.html<br>
-Note changes from yum to dnf on the Fedora section
 ### Fedora
-```
-sudo dnf groupinstall "C Development Tools and Libraries"
-sudo dnf install mesa-libGL-devel
-sudo dnf install xcb-util-cursor xcb-util-cursor-devel
-```
+#### Skip ahead to "Grand Fedora Install" section!!!
+
 ### Apt Based Distros(Ubuntu,Debian,Mint)
 
 ```
@@ -28,8 +21,6 @@ Note that you might have to sign in(create an account if necessary).
 Scroll down to the bottom and click the "Download the Qt Online Installer" link. (Why can't this be a giant Download button, Qt???)<br>
  Select your OS.
 ### Run It
- This differs between OS's, on Linux:
-
 ![](./.images/Terminal_View_1.png)
 
 Start running through the installer(You'll have to sign into your Qt Account). <br>
@@ -55,14 +46,20 @@ Notice in the top right, the version "6.7.2 in PATH" is selected. If you have ne
 
 In the terminal:
 ### Install Git
-#### Fedora
-```
-sudo dnf install git
-```
 #### Ubuntu
 ```
 sudo apt install git
 ``` 
+
+## Grand Fedora Install!!
+```
+sudo dnf install git
+sudo dnf install @c-development
+sudo dnf install mesa-libGL-devel
+sudo dnf install cmake
+sudo dnf install qt6-qtbase-devel && sudo dnf install qt6-qtquick3d-devel && sudo dnf install qt6-qtmultimedia-devel && sudo dnf install qt6-qtconnectivity-devel
+sudo dnf install qt-creator
+```
 
 ### Clone
 ```
