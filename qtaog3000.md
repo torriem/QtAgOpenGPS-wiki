@@ -45,9 +45,12 @@ This document is describes a possible future implemenation of QtAgOpenGPS
    * IMU stuff
  * Plugins
    * Rate control
-     * ISOBUS Integration
+   * ISOBUS Integration
      * Current coverage and variable rate map as a Task Controller
      * Create QtAOG implement from ISOBUS implement information, including toolbar and sections using ISOBUS-provided numbers for hitch length, section numbers, widths, etc
+   * autosteer algorithms
+   * youturn algorithms?
+   * track types?
 
 ## Software Architecture
  * Core abstract components
