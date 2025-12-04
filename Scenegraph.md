@@ -1,5 +1,5 @@
 # Using the QtQuick SceneGraph to render the main display
-See [this page](claude conversation about scenegraph.md) For a conversation with Claude.ai about different aspects of using the Scene Graph that are germain to this document.
+See [this page](https://github.com/torriem/QtAgOpenGPS/wiki/claude-conversation-about-scenegraph) For a conversation with Claude.ai about different aspects of using the Scene Graph that are germain to this document.
 
 One possibility for rendering the main display in QtAOG is to use QtQuick Scene Graph primitives and turn everything over to the scenegraph rendering pipeline, rather than try to do OpenGL rendering ourselves.  The Scenegraph system is intended for 2D UI primarily, so there is no depth testing of pixels. However QtAOG currently uses essentially 2.5D rendering with no depth testing already.  The field, coverage, implement, tractor, AB lines, flags, etc, are all drawn using a painters algorithm, essentially at a flat z depth of 0.  Essentially all OpenGL drawing is down in 2D on the z=0 plane.
 
